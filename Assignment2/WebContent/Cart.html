@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Cart</title>
+</head>
+<body>
+<center>
+<div class="container">
+<div class="header">Wlecome to Store</div>
+<div class="sidebar">
+<a href="View.html">viewCart</a></div>
+<div class="content">
+<center>
+<form action="CartServlet" method="post"><table>
+<tr><td colspan=2>add items to cart</td>
+</tr>
+<tr><td>select item</td>
+<td><select name="itemType">
+<option value="horlicks">horlicks</option>
+<option value=" tata">tata</option>
+<option value="dodge">dodge</option></select></td>
+</tr>
+<tr><td>enter the quantity</td>
+<td><input type="number" name="quant" id="quant"></td>
+</tr>
+<tr><td colspan=2><input type="submit" name="add item"></td></table></form></center></div>
+<div class="footer"></div></div>
+</body>
+</html>
